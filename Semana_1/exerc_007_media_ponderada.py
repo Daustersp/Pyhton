@@ -12,4 +12,5 @@ media = ((nota1 * 2) + (nota2 * 3) + (nota3 * 5))/10
 print ("A média final é: ", media)
 
 #print(f' A média final é: {media:.1f}')
-      
+
+#Ano 2024
