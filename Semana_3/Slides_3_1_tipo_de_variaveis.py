@@ -57,7 +57,7 @@ os.system("cls") #para limpar a tela a cada iteração
 #CORREÇÃO DE EXERCÍCIOS EM SALA (LAB) - Laços de Repetição
 
 #Exercício 1
-# for numero in range(0,11,2):
+# for numero in range(2,11,2):
 #    print(numero)
 
 #Exercício 2
@@ -74,16 +74,16 @@ os.system("cls") #para limpar a tela a cada iteração
 #Exercício 4
 # senha = input("Digite uma senha: ")
 
-# while senha != "1234":
+# while senha != 1234:
 #     print("Senha incorreta!")
 #     senha = input("Digite uma senha: ")
 
 # print("Senha correta! Acesso permitido.")
 
 #Exercício 5
-# nota = float(input("Insira uma nota 0 até 10: "))
+nota = float(input("Insira uma nota 0 até 10: "))
 
-# while (nota < 0) or (nota > 10):
-#     print("A nota não pode ser menor que 0 ou maior que 10!")
-#     nota = float(input("Digite novamente outra nota:"))
-# print("Nota válida")
+while (nota < 0) or (nota > 10):
+    print("A nota não pode ser menor que 0 ou maior que 10!")
+    nota = float(input("Digite novamente outra nota:"))
+print("Nota válida")
