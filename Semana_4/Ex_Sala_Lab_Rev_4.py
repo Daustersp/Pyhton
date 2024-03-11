@@ -2,7 +2,7 @@ import os
 os.system("cls")
 
 # Usando posições na string
-# email = "dauster.pereira@ifb.edu.br"
+email = "dauster.pereira@ifb.edu.br"
 # print(email[0]) # mostra d
 # print(email[1]) # mostra a
 # print(email[2]) # mostra u
@@ -11,7 +11,7 @@ os.system("cls")
 # print(email[5]) # mostra e
 # print(email[6]) # mostra r
 # print(email[7]) # mostra .
-# print(email[0:6]) # mostra dauster
+# print(email[0:7]) # mostra dauster
 # print(len(email))
 
 
@@ -21,27 +21,26 @@ os.system("cls")
 # print(email[-1]) # mostra r
 # print(email[-26]) # mostra d
 
-# Usando o : antes da posição, mostra todos os dados até o caractere determinado (não incluso)
+# Usando o : mostra todos os dados até a posição determinada (não inclusa)
 # email = "dauster.pereira@ifb.edu.br"
-# print(email[:-21]) # mostra todos os dados até o caractere [-5] (não incluso)
+# print(email[:5]) 
 
-# Usando o : depois da posição, mostra todos ao contrário com o caractere incluso (incluso)
+# Usando o : mostra todos os dados após a posição determinada (não inclusa)
 # email = "dauster.pereira@ifb.edu.br"
-# print(email[-5:]) # mostra todos os dados até o caractere [-5] (não incluso)
+# print(email[5:])
 
-# Intervalo - [-126:-1] -> -16 (incluso) e -1 (não incluso)
 # email = "dauster.pereira@ifb.edu.br"
-# print(email[-26:-1]) # mostra todos os dados até o caractere [-5] (não incluso)
+# print(email[3:8]) # mostra a substring de 3 (incluso) até [8] (não incluso)
 
 
 # Operações com string
 # qtde_vendida = 1500
 # custo_produto = 500
 # lucro = qtde_vendida - custo_produto
-# print ("O lucro da loja foi de " + lucro) #ERRO - só concatena string com string
+# # print ("O lucro da loja foi de " + lucro) #ERRO - só concatena string com string
 # print ("O lucro da loja foi de " + str(lucro)) #Erro - só concatena string com string
 
-#print ("O lucro da loja foi de: {}" .format(lucro))
+# print ("O lucro da loja foi de: {}" .format(lucro))
 
 # print ("O lucro da loja foi de: {} reais. O custo do produto foi de {} reais." .format(lucro, custo_produto))
 
@@ -103,14 +102,28 @@ os.system("cls")
 # print(texto.upper()) #Altera todo o texto para MAIÚSCULAS. Números ficam inalterados
 
 # OUTRAS FORMATAÇÕES PERSONALIZADAS FORMAT
-email = "dauster.pereira@ifb.edu.br"
-print("Meu e-mail não é {}?".format(email)) #Formato padrão sem alinhamento
+# email = "dauster.pereira@ifb.edu.br"
+# print("Meu e-mail não é {}?".format(email)) #Formato padrão sem alinhamento
 
-email = "dauster.pereira@ifb.edu.br"
-print("Meu e-mail não é {:<30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado à esquerda (:<)
+# email = "dauster.pereira@ifb.edu.br"
+# print("Meu e-mail não é {:<30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado à esquerda (:<)
 
-email = "dauster.pereira@ifb.edu.br"
-print("Meu e-mail não é {:>30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado à direita (:>)
+# email = "dauster.pereira@ifb.edu.br"
+# print("Meu e-mail não é {:>30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado à direita (:>)
 
-email = "dauster.pereira@ifb.edu.br"
-print("Meu e-mail não é {:^30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado ao centro (:^)
+# email = "dauster.pereira@ifb.edu.br"
+# print("Meu e-mail não é {:^30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado ao centro (:^)
+
+
+## Programa para calcular a soma dos dois maiores valores entre 10 números
+# Recebe 10 números do usuário
+# numeros = [float(input(f"Digite o {i+1}º número: ")) for i in range(10)]
+
+# # Ordena os números em ordem decrescente
+# numeros_ordenados = sorted(numeros, reverse=True)
+
+# # Soma os dois maiores valores
+# soma_dos_maiores = numeros_ordenados[0] + numeros_ordenados[1]
+
+# # Exibe o resultado
+# print(f"A soma dos dois maiores valores é: {soma_dos_maiores}")
