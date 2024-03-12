@@ -100,30 +100,3 @@ email = "dauster.pereira@ifb.edu.br"
 
 # texto = "jantei 3 vezes"
 # print(texto.upper()) #Altera todo o texto para MAIÚSCULAS. Números ficam inalterados
-
-# OUTRAS FORMATAÇÕES PERSONALIZADAS FORMAT
-# email = "dauster.pereira@ifb.edu.br"
-# print("Meu e-mail não é {}?".format(email)) #Formato padrão sem alinhamento
-
-# email = "dauster.pereira@ifb.edu.br"
-# print("Meu e-mail não é {:<30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado à esquerda (:<)
-
-# email = "dauster.pereira@ifb.edu.br"
-# print("Meu e-mail não é {:>30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado à direita (:>)
-
-# email = "dauster.pereira@ifb.edu.br"
-# print("Meu e-mail não é {:^30}?".format(email)) #Caixa de texto com tamanho de 30 caracteres e texto alinhado ao centro (:^)
-
-
-## Programa para calcular a soma dos dois maiores valores entre 10 números
-# Recebe 10 números do usuário
-# numeros = [float(input(f"Digite o {i+1}º número: ")) for i in range(10)]
-
-# # Ordena os números em ordem decrescente
-# numeros_ordenados = sorted(numeros, reverse=True)
-
-# # Soma os dois maiores valores
-# soma_dos_maiores = numeros_ordenados[0] + numeros_ordenados[1]
-
-# # Exibe o resultado
-# print(f"A soma dos dois maiores valores é: {soma_dos_maiores}")
