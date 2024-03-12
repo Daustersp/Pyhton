@@ -5,8 +5,8 @@
 import os  # o comando import possibilita a importação de pacotes, módulos e bibliotecas
 os.system("cls") #para limpar a tela a cada iteração
 
-# texto = input("Digite um texto: ")
-# print(texto.upper()) #converte todo o texto para maiúsculo
+# # texto = input("Digite um texto: ")
+# # print(texto.upper()) #converte todo o texto para maiúsculo
 
 # texto = input("Digite um texto: ")
 # print(texto.lower()) #converte todo o texto para minúsculo
