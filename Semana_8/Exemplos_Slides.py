@@ -7,6 +7,13 @@ os.system("cls") #para limpar a tela a cada iteração
 # lista3 = [11,12,13,14,15]
 # todas_listas = [lista1,lista2,lista3]
 # print(todas_listas)
+# print(todas_listas[0])
+
+
+
+
+
+
 
 # OUTRA FORMA DE DEFINIR LISTA (Slide 5)
 # lista1 = [
@@ -104,27 +111,27 @@ os.system("cls") #para limpar a tela a cada iteração
 # except:
 #     print('O produto {} não existe na lista. '.format(item_usuario))
 
-# 3 MÉTODOS PARA LISTA
+# 3 MÉTODOS PARA LISTA (Slide 18)
 # vendas = [10,50,670,16,46,87,99]
 # print(len(vendas))
 # print(max(vendas))
 # print(min(vendas))
 
-# JUNTAR LISTAS COM O EXTENDE
+# JUNTAR LISTAS COM O EXTEND (Slide 19)
 # produtos = ['apple tv','mac','iphone x', 'Ipad', 'apple watch', 'macbook', 'airpods']
 # novos_produtos = ['chromecast', 'windows', 'windows phone']
 
 # produtos.extend(novos_produtos)
 # print(produtos)
 
-# JUNTAR LISTAS COM O SINAL DE +
+# JUNTAR LISTAS COM O SINAL DE + (Slide 20)
 # produtos = ['apple tv','mac','iphone x', 'Ipad', 'apple watch', 'macbook', 'airpods']
 # novos_produtos = ['chromecast', 'windows', 'windows phone']
 
 # produtos_compilado = produtos + novos_produtos
 # print(produtos_compilado)
 
-# JUNTAR LISTAS COM O APPEND E COM O SINAL DE +
+# JUNTAR LISTAS COM O APPEND E COM O SINAL DE + (Slide 21)
 # produtos = ['apple tv','mac','iphone x', 'Ipad', 'apple watch', 'macbook', 'airpods']
 # novos_produtos = ['chromecast', 'windows', 'windows phone']
 
@@ -136,14 +143,15 @@ os.system("cls") #para limpar a tela a cada iteração
 # produtos.append(novos_produtos)
 # print(produtos)
 
-# SE TIVER ITENS IGUAIS NA LISTA ORIGINAL
+
+# SE TIVER ITENS IGUAIS NA LISTA ORIGINAL (Slide 22)
 # produtos = ['apple tv','mac','iphone x', 'Ipad', 'airpods']
 # novos_produtos = ['chromecast', 'airpods']
 
 # produtos.extend(novos_produtos)
 # print(produtos)
 
-# ORDENANDO LISTAS COM O SORT()
+# ORDENANDO LISTAS COM O SORT() (Slide 23)
 # produtos = ['apple tv','mac','iphone x', 'Ipad', 'airpods']
 # vendas = [1000, 1500, 15000, 270, 900]
 
@@ -151,11 +159,11 @@ os.system("cls") #para limpar a tela a cada iteração
 # produtos.sort()
 # print(produtos)
 
-# ORDENANDO LISTAS NUMÉRICAS COM O SORT()
+# ORDENANDO LISTAS NUMÉRICAS COM O SORT() (Slide 24)
 # produtos = ['apple tv','mac','iphone x', 'Ipad', 'airpods']
 # vendas = [1000, 1500, 15000, 270, 900]
 
-# #Ordenando a lista de vendas
+# #Ordenando a lista de vendas (Slide 25)
 # vendas.sort()
 # print(vendas)
 
@@ -255,13 +263,13 @@ os.system("cls") #para limpar a tela a cada iteração
 # print(vendas[1])
 
 # ACESSANDO ITEM ESPECÍFICO NA LISTA
-# vendedores = ['Fulano1','Fulano2','Fulano3', 'Fulano4']
-# produtos = ['ipad', 'iphone']
-# vendas = [
-#     [100, 200],
-#     [300, 500],
-#     [50, 1000],
-#     [900, 10],
-# ]
+vendedores = ['Fulano1','Fulano2','Fulano3', 'Fulano4']
+produtos = ['ipad', 'iphone']
+vendas = [
+    [100, 200],
+    [300, 500],
+    [50, 1000],
+    [900, 10],
+]
 
-# print(vendas[1][0])
+print(vendas[1][1])
