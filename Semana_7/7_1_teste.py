@@ -1,12 +1,12 @@
 import os  # o comando import possibilita a importação de pacotes, módulos e bibliotecas
 os.system("cls") #para limpar a tela a cada iteração
 
-class ControleRemoto:
-    def __init__(self, cor, altura, profundidade, largura):
-        self.cor = cor
-        self.altura = altura
-        self.profundidade = profundidade
-        self.largura = largura
+# class ControleRemoto:
+#     def __init__(self, cor, altura, profundidade, largura):
+#         self.cor = cor
+#         self.altura = altura
+#         self.profundidade = profundidade
+#         self.largura = largura
 
 
 
@@ -106,3 +106,10 @@ class ControleRemoto:
 
 # cliente = Cliente("Dauster", "daustersp@gmail.com", "blabla")
 # print(cliente.nome)
+
+
+#importando o tkinter
+from tkinter import *
+janela = Tk()
+janela.title("Olá Mundo")
+janela.mainloop()
