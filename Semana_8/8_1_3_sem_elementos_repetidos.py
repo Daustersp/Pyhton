@@ -16,6 +16,13 @@ while True:
     segunda.append(e)
 
 # Cria um conjunto com elementos das duas listas (elimina os repetidos)
+'''Os sets são uma coleção de itens desordenada, parcialmente imutável e que não podem 
+conter elementos duplicados. Por ser parcialmente imutável, os sets possuem permissão 
+de adição e remoção de elementos.
+
+Além disso, os sets são utilizados, normalmente, com operações matemáticas de união, 
+interseção e diferença simétrica.
+Acesse o link: https://www.treinaweb.com.br/blog/manipulando-sets-no-python'''
 conjunto = set(primeira + segunda)
 
 # Converte o conjunto de volta para lista
