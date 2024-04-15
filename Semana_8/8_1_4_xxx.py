@@ -30,32 +30,32 @@ os.system("cls") #para limpar a tela a cada iteração
 
 
 
-class Produto:
-    def __init__(self, nome, preco, estoque):
-        self.nome = nome
-        self.preco = preco
-        self.estoque = estoque
+# class Produto:
+#     def __init__(self, nome, preco, estoque):
+#         self.nome = nome
+#         self.preco = preco
+#         self.estoque = estoque
 
-class ItemPedido:
-    def __init__(self, produto, quantidade):
-        self.produto = produto
-        self.quantidade = quantidade
+# class ItemPedido:
+#     def __init__(self, produto, quantidade):
+#         self.produto = produto
+#         self.quantidade = quantidade
 
-class Pedido:
-    def __init__(self, itens, qtde_pedido, tipo_pagto):
-        self.itens = itens
-        self.qtde = qtde_pedido
-        self.tipo_pagto = tipo_pagto
+# class Pedido:
+#     def __init__(self, itens, qtde_pedido, tipo_pagto):
+#         self.itens = itens
+#         self.qtde = qtde_pedido
+#         self.tipo_pagto = tipo_pagto
 
-produto1 = Produto("arroz", "100", "200")
-produto2 = Produto("milho", "50", "20")
+# produto1 = Produto("arroz", "100", "200")
+# produto2 = Produto("milho", "50", "20")
 
-item_pedido1 = ItemPedido("arroz", "10")
-item_pedido2 = ItemPedido("milho", "5")
+# item_pedido1 = ItemPedido("arroz", "10")
+# item_pedido2 = ItemPedido("milho", "5")
 
-pedido1 = Pedido("arroz", "2", "Dinheiro")
-pedido2 = Pedido("milho", "2", "Cheque")
+# pedido1 = Pedido("arroz", "2", "Dinheiro")
+# pedido2 = Pedido("milho", "2", "Cheque")
 
-print(produto1.nome)
-print(item_pedido1.quantidade)
-print(pedido2.tipo_pagto)
+# print(produto1.nome)
+# print(item_pedido1.quantidade)
+# print(pedido2.tipo_pagto)
