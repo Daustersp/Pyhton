@@ -23,12 +23,18 @@ instrucao = 0
 while instrucao != 4:
         
     instrucao = int(input("Digite o número da opção: 1 - adicionar, 2 - excluir, 3 - imprimir ou 4 - sair: \n"))
-    
-    #adiciona contatos sem espaços desnecessários
+    #instrucao = int(input('''Digite o número da opção: [1] - adicionar, 
+    #                      [2] - excluir, 
+    #                      [3] - imprimir ou 
+    #                      [4] - sair 
+    #                      -->'''))
+
+
+    #adiciona contatos
     if instrucao == 1: 
-        nome = input("Nome: \n").strip()
-        telefone = input("Telefone: \n").strip()
-        endereco = input("Endereço: \n").strip()
+        nome = input("Nome: ")
+        telefone = input("Telefone: ")
+        endereco = input("Endereço: ")
         ag = agenda_class(nome,telefone,endereco)
         lista_agenda.append(ag)
         print("\nSeu contato foi inserido \n")
