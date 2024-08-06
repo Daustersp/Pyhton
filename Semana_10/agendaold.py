@@ -9,10 +9,12 @@ os.system("cls") #para limpar a tela a cada iteração
 #from agenda_class import agenda_class
 
 class agenda_class:
+    #instrucao = 0
     def __init__(self,nome,telefone,endereco):
         self.nome = nome
         self.telefone = telefone
         self.endereco = endereco
+    #    agenda_class.instrucao += 1
 
 
 #executa as instruções da agenda
@@ -21,7 +23,7 @@ instrucao = 0
 while instrucao != 4:
         
     instrucao = int(input("Digite o número da opção: 1 - adicionar, 2 - excluir, 3 - imprimir ou 4 - sair: \n"))
-    # instrucao = int(input('''Digite o número da opção: [1] - adicionar, 
+    #instrucao = int(input('''Digite o número da opção: [1] - adicionar, 
     #                      [2] - excluir, 
     #                      [3] - imprimir ou 
     #                      [4] - sair 
@@ -48,7 +50,7 @@ while instrucao != 4:
             contador_selecionado = input("\n Qual o número da informação deseja excluir?\n")
             if contador_selecionado.isnumeric():
                 contador_novo = int(contador_selecionado)
-                if contador_novo in range(0, contador): ## range(start, stop é o valor final (não inclusivo), step)
+                if contador_novo in range(0, contador):
                     print("\nEstamos excluindo... quase lá...\n")
                     lista_selecionada = lista_agenda.pop(contador_novo) #Apaga o item
                     print(f"\nO dado da agenda {lista_selecionada.nome, lista_selecionada.telefone, lista_selecionada.endereco} foi excluído!\n") #Item foi excluído

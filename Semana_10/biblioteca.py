@@ -12,6 +12,7 @@ class biblioteca_class:
 
 
 # from biblioteca_class import biblioteca_class #Caso seja utilizado um arquivo separa para as classes
+# criação das instâncias
 
 livro_0 = biblioteca_class("O universo numa casca de noz")
 livro_1 = biblioteca_class("Uma breve história do tempo")
@@ -23,6 +24,8 @@ livro_6 = biblioteca_class("Breves respostas para grandes questões")
 livro_7 = biblioteca_class("Infinito em todas as direções")
 livro_8 = biblioteca_class("O livro que ninguém leu")
 livro_9 = biblioteca_class("Mundos em Guerra: a luta de mais 2.500 anos entre o Oriente e o Ocidente")
+
+# Exibir na tela as opções dos livros para o usuário
 
 print("Bem-vindo a Biblioteca IFB! Os livros para empréstimo são:"
 '''
@@ -37,8 +40,8 @@ print("Bem-vindo a Biblioteca IFB! Os livros para empréstimo são:"
         [8] O livro que ninguém leu',
         [9] Mundos em Guerra: a luta de mais 2.500 anos entre o Oriente e o Ocidente.''')
 
-usuario = input("Por favor digite seu nome para realizarmos o empréstimo: ") #nome do usuario
-emprestimo = int(input("Digite o número do livro desejado: ")) #solicitações do usuário (seleção)
+usuario = input("Por favor digite seu nome para realizarmos o empréstimo: ") # guardar o nome do usuario
+emprestimo = int(input("Digite o número do livro desejado: ")) # guardar a opção escolhida pelo usuário e converter para inteiro
 
 #lista para seleção
 lista_livros = [livro_0,
@@ -52,7 +55,7 @@ lista_livros = [livro_0,
         livro_8,
         livro_9]    #lista para escolha
 opcao_selecionada = int(emprestimo)
-for opcao in lista_livros:    
+for opcao in lista_livros:    #percorrer o for
         if opcao_selecionada >= 10:    #caso usuário não digite a opção correta
                 print("Não temos esta opção em nosso acervo.")
                 break
