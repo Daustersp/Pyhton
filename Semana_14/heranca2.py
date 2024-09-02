@@ -3,7 +3,7 @@
 import os  # o comando import possibilita a importação de pacotes, módulos e bibliotecas
 os.system("cls") #para limpar a tela a cada iteração
 
-# # Criando uma classe - PAI
+# Criando uma classe - PAI
 # class Pessoa():
 #     def __init__(self, nome, idade):
 #         self.nome = nome
@@ -17,11 +17,11 @@ os.system("cls") #para limpar a tela a cada iteração
 # pessoa1.saudacao()
 
 
-# # # Criando uma subclasse - Slide 9 / Slide 10
+# # Criando uma subclasse - Slide 9 / Slide 10
 # class Aluno(Pessoa):
 #     pass
 
-# # #Criando um objeto a partir da subclasse
+# #Criando um objeto a partir da subclasse
 # pessoa2 = Aluno("Maria da Silva", 20)
 # pessoa2.saudacao()
 
